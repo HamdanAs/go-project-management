@@ -1,0 +1,66 @@
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.a
+*.o
+coverage.out
+testcover.out
+prof*
+
+# Build / output dirs
+/bin/
+/build/
+/dist/
+/out/
+/_*
+
+# Go modules vendor (uncomment if you vendor dependencies)
+vendor/
+
+# Tooling / caches
+*.log
+logs/
+tmp/
+cache/
+*.prof
+
+# Common DB / runtime files
+*.db
+*.sqlite
+*.sqlite3
+storage/
+sessions/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.*.env
+
+# Frontend (if present)
+node_modules/
+public/dist/
+public/assets/
+assets/dist/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+*.swp
+*~ 
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+coverage/
+coverage.out
+
+# Keep example env files in repo
+!.env.example
